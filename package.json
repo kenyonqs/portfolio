@@ -1,0 +1,19 @@
+{
+  "name": "kenyon-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tinacms dev -c \"astro dev\"",
+    "build": "astro build",
+    "build:cms": "tinacms build && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.16.18",
+    "tinacms": "^2.7.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.0"
+  }
+}

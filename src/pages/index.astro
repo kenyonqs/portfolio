@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import settings from '../data/settings.json';
+
+const projects = await getCollection('projects');
+// group by year, newest first; sort by `order` within a year
+const years = [...new Set(projects.map((p) => p.data.year))].sort((a, b) =>
+  b.localeCompare(a, undefined, { numeric: true })
+);
+const byYear = years.map((year) => ({
+  year,
+  items: projects
+    .filter((p) => p.data.year === year)
+    .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99)),
+}));
+---
+<Layout>
+  <div class="card-wrap">
+    <div class="card">
+      <nav class="pills">
+        {settings.email && <a href={`mailto:${settings.email}`}>Email</a>}
+        {settings.portfolioUrl && <a href={settings.portfolioUrl} target="_blank" rel="noopener">Portfolio &#8599;</a>}
+        {settings.instagramUrl && <a href={settings.instagramUrl} target="_blank" rel="noopener">Instagram &#8599;</a>}
+      </nav>
+
+      <div class="id-row">
+        <div>
+          <h1>{settings.name}</h1>
+          <div class="sub">{settings.subtitle}</div>
+        </div>
+        <div class="bio">
+          {(settings.bio || []).map((p) => <p>{p}</p>)}
+        </div>
+      </div>
+
+      <section>
+        <h2>Selected Projects</h2>
+        {byYear.map(({ year, items }) => (
+          <div class="row">
+            <div class="yr">{year}</div>
+            <ul>
+              {items.map((p) => (
+                <li>
+                  <a class="proj" href={`/projects/${p.slug}/`} data-bg={p.data.mainImage}>{p.data.title}</a>
+                  {p.data.venue && `, ${p.data.venue}`}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+
+      {settings.education?.length > 0 && (
+        <section>
+          <h2>Education</h2>
+          {settings.education.map((e) => (
+            <div class="row"><div class="yr">{e.years}</div><div>{e.text}</div></div>
+          ))}
+        </section>
+      )}
+
+      {settings.awards?.length > 0 && (
+        <section>
+          <h2>Selected Awards</h2>
+          {settings.awards.map((a) => (
+            <div class="row"><div class="yr">{a.year}</div><div>{a.text}</div></div>
+          ))}
+        </section>
+      )}
+
+      <footer>
+        {(settings.footer || []).map((line) => <div>{line}</div>)}
+      </footer>
+    </div>
+  </div>
+</Layout>
