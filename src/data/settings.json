@@ -16,15 +16,27 @@
   "patternWord": "kenyon",
   "patternImage": "",
   "education": [
-    { "years": "2023", "text": "Bachelor of Placeholder (Honours), University Name" },
-    { "years": "2020 — 2023", "text": "Bachelor of Placeholder (Visual Arts), College Name" }
+    {
+      "years": "2023",
+      "text": "Bachelor of Placeholder (Honours), University Name"
+    },
+    {
+      "years": "2020 — 2023",
+      "text": "Bachelor of Placeholder (Visual Arts), College Name"
+    }
   ],
   "awards": [
-    { "year": "2025", "text": "Placeholder Prize, Nominee, Institution Name" },
-    { "year": "2024", "text": "Placeholder Memorial Grant, Awarding Body" }
+    {
+      "year": "2025",
+      "text": "Placeholder Prize, Nominee, Institution Name"
+    },
+    {
+      "year": "2024",
+      "text": "Placeholder Memorial Grant, Awarding Body"
+    }
   ],
   "footer": [
-    "Kenyon Smith — All Rights Reserved",
-    "© 2026"
+    "Kenyon Q. Smith — All Rights Reserved",
+    "© 2026–"
   ]
 }
