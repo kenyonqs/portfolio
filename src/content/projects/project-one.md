@@ -3,10 +3,8 @@ title: Gieco Coverage Zone
 year: '2026'
 venue: 'Washington, DC'
 order: 3
-mainImage: /uploads/Geico/MOCK-UP.png
+mainImage: /uploads/Geico/Screenshot%202025-09-15%20at%202.39.36%E2%80%AFPM.png
 gallery:
-  - image: /uploads/Geico/Screenshot 2025-09-15 at 2.39.36 PM.png
-    caption: 'Coverage Zone '
   - image: /uploads/Geico/MOCK-UP.png
     caption: Floor-Plan
   - image: /uploads/Geico/GRAPHICS.png
