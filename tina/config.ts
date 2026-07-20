@@ -41,7 +41,9 @@ export default defineConfig({
           { type: "number", name: "order", label: "Order within year",
             description: "Lower numbers appear first. Optional." },
           { type: "image", name: "mainImage", label: "Main image", required: true,
-            description: "Shown as the background on hover and on the project page" },
+            description: "Shown as the background when hovering this project on the CV" },
+          { type: "image", name: "backgroundImage", label: "Project page background (optional)",
+            description: "Background shown behind the card on this project's own page. Falls back to the main image if empty." },
           {
             type: "object", name: "gallery", label: "Gallery", list: true,
             ui: { itemProps: (item) => ({ label: item?.caption || "Image" }) },
