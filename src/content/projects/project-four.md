@@ -11,6 +11,9 @@ gallery:
     caption: Entry
   - image: /uploads/Impossible%20Foods/_AB_4918.jpg
     caption: Barbershop
+  - {}
+  - image: /uploads/Impossible%20Foods/_AB_4726.jpg
+    caption: Mural Wall
 ---
 
 Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.
