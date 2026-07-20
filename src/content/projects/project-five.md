@@ -5,8 +5,6 @@ venue: 'Chicago, IL'
 order: 1
 mainImage: /uploads/Vital Farms/1777313224635.jpg
 gallery:
-  - image: /uploads/project-five.svg
-    caption: Detail — placeholder caption
   - image: /uploads/Vital%20Farms/1777313226398.jpg
   - image: /uploads/Vital%20Farms/1777313226398.jpg
     caption: 'Line '
