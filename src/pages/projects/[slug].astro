@@ -11,6 +11,7 @@ export async function getStaticPaths() {
 const { project } = Astro.props;
 const { Content } = await project.render();
 const d = project.data;
+const gallery = (d.gallery || []).filter((g) => g.image);
 ---
 <Layout title={`${d.title} — ${settings.name}`} bgImage={d.mainImage}>
   <div class="card-wrap">
@@ -35,7 +36,7 @@ const d = project.data;
           <figure>
             <img src={d.mainImage} alt={d.title} />
           </figure>
-          {(d.gallery || []).map((g) => (
+          {gallery.map((g) => (
             <figure>
               <img src={g.image} alt={g.caption || d.title} loading="lazy" />
               {g.caption && <figcaption>{g.caption}</figcaption>}
