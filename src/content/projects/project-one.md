@@ -9,6 +9,8 @@ gallery:
     caption: 'Coverage Zone '
   - image: /uploads/Geico/MOCK-UP.png
     caption: Floor-Plan
+  - image: /uploads/Geico/GRAPHICS.png
+    caption: Graphics
 ---
 
 Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.
