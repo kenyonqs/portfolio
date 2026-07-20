@@ -2,6 +2,7 @@
 title: 404 Block Party
 year: '2026'
 venue: 'Atlanta, GA'
+order: 2
 mainImage: /uploads/Impossible%20Foods/_AB_5520.jpg
 gallery:
   - image: /uploads/Impossible%20Foods/_AB_5703.jpg
