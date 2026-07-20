@@ -1,8 +1,9 @@
 ---
-title: Project One
+title: Gieco Coverage Zone
 year: '2026'
-venue: 'Gallery Name, City'
-mainImage: /uploads/project-one.svg
+venue: 'Washington, DC'
+order: 5
+mainImage: /uploads/Geico/Untitled.gif
 gallery:
   - image: /uploads/project-one-b.svg
     caption: Detail view — placeholder caption
