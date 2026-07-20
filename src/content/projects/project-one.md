@@ -2,7 +2,6 @@
 title: Gieco Coverage Zone
 year: '2026'
 venue: 'Washington, DC'
-order: 5
 mainImage: /uploads/Geico/Untitled.gif
 ---
 
