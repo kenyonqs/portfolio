@@ -7,6 +7,7 @@ mainImage: /uploads/Vital Farms/1777313224635.jpg
 gallery:
   - image: /uploads/project-five.svg
     caption: Detail — placeholder caption
+  - image: /uploads/Vital%20Farms/1777313226398.jpg
 ---
 
-Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.The idea was rooted in nostalgia, Americana Roadside Diner. My favorite part of the process was creating graphics for merch and developing worlds that feel cinematically believable. I had the privilege of designing the Good Eggs Diner for Vital Farms, which will embark on a summer journey to commemorate the centennial of Route 66. 
+Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.The idea was rooted in nostalgia, Americana Roadside Diner. My favorite part of the process was creating graphics for merch and developing worlds that feel cinematically believable. I had the privilege of designing the Good Eggs Diner for Vital Farms, which will embark on a summer journey to commemorate the centennial of Route 66.
