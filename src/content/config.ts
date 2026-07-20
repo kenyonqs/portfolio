@@ -9,7 +9,12 @@ const projects = defineCollection({
     order: z.number().optional(),
     mainImage: z.string(),
     gallery: z
-      .array(z.object({ image: z.string(), caption: z.string().optional() }))
+      .array(
+        z.object({
+          image: z.string().optional(),
+          caption: z.string().optional(),
+        })
+      )
       .optional(),
   }),
 });
