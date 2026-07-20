@@ -1,7 +1,7 @@
 ---
 title: Project Two
-year: "2026"
-venue: Museum Name, City
+year: '2025'
+venue: 'Museum Name, City'
 order: 2
 mainImage: /uploads/project-two.svg
 gallery:
