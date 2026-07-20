@@ -6,7 +6,6 @@ order: 1
 mainImage: /uploads/Vital Farms/Screenshot 2026-07-20 at 3.37.43 PM.png
 gallery:
   - image: /uploads/Vital%20Farms/1777313226398.jpg
-  - image: /uploads/Vital%20Farms/1777313226398.jpg
     caption: 'Line '
   - image: /uploads/Vital%20Farms/1777313223406.jpg
     caption: Post Card
