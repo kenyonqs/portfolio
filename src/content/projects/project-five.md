@@ -9,6 +9,7 @@ gallery:
     caption: Detail — placeholder caption
   - image: /uploads/Vital%20Farms/1777313226398.jpg
   - image: /uploads/Vital%20Farms/1777313226398.jpg
+    caption: 'Line '
   - image: /uploads/Vital%20Farms/1777313223406.jpg
     caption: Post Card
 ---
