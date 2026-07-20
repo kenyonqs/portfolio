@@ -1,9 +1,9 @@
 ---
-title: Project Four
-year: '2025'
+title: Impossible Foods
+year: '2026'
 venue: 'Group Show, City'
 order: 2
-mainImage: /uploads/Impossible%20Foods/_AB_5703.jpg
+mainImage: /uploads/Impossible%20Foods/_AB_5520.jpg
 gallery:
   - image: /uploads/project-four.svg
     caption: Detail — placeholder caption
