@@ -8,7 +8,7 @@ gallery:
   - image: /uploads/Impossible%20Foods/TASTE%20THE.png
     caption: Entry
   - image: /uploads/Impossible%20Foods/_AB_5703.jpg
-    caption: Big Bio's Burgers
+    caption: Big Boi's Burgers
 ---
 
 Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.
