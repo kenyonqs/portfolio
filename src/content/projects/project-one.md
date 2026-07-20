@@ -11,6 +11,8 @@ gallery:
     caption: Floor-Plan
   - image: /uploads/Geico/GRAPHICS.png
     caption: Graphics
+  - image: /uploads/Geico/Football%20Toss.png
+    caption: Deck Pages
 ---
 
 Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.
