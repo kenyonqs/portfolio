@@ -3,7 +3,7 @@ title: Good Eggs Diner
 year: '2026'
 venue: 'Chicago, IL'
 order: 1
-mainImage: /uploads/Vital Farms/1777313224635.jpg
+mainImage: /uploads/Vital Farms/Screenshot 2026-07-20 at 3.37.43 PM.png
 gallery:
   - image: /uploads/Vital%20Farms/1777313226398.jpg
   - image: /uploads/Vital%20Farms/1777313226398.jpg
