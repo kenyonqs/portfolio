@@ -11,7 +11,8 @@ gallery:
     caption: Entry Render
   - image: /uploads/Impossible%20Foods/_AB_4918.jpg
     caption: Barbershop
-  - {}
+  - image: /uploads/Impossible%20Foods/_AB_4665.jpg
+    caption: 1 of 40 Samples
   - image: /uploads/Impossible%20Foods/_AB_4726.jpg
     caption: Mural Wall
 ---
