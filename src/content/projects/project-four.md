@@ -15,6 +15,8 @@ gallery:
     caption: 1 of 40 Samples
   - image: /uploads/Impossible%20Foods/_AB_4726.jpg
     caption: Mural Wall
+  - image: /uploads/Impossible%20Foods/_AB_5464.jpg
+    caption: Big Boi Takes The Stage
 ---
 
 Placeholder description of the project — materials, dimensions, concept. Edit this text (and everything else) in the visual editor.
