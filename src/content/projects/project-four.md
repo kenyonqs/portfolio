@@ -8,7 +8,7 @@ gallery:
   - image: /uploads/Impossible%20Foods/_AB_5703.jpg
     caption: Big Boi's Burgers
   - image: /uploads/Impossible%20Foods/TASTE%20THE.png
-    caption: Entry
+    caption: Entry Render
   - image: /uploads/Impossible%20Foods/_AB_4918.jpg
     caption: Barbershop
   - {}
