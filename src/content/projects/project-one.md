@@ -4,7 +4,7 @@ year: '2026'
 venue: 'Washington, DC'
 order: 3
 mainImage: /uploads/Geico/Untitled.gif
-backgroundImage: /uploads/Geico/geico-03-01-01-01.png
+backgroundImage: /uploads/Geico/geico-04-01-01-01-01.png
 gallery:
   - image: /uploads/Geico/MOCK-UP.png
     caption: Floor-Plan
