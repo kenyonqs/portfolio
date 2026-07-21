@@ -13,6 +13,7 @@ gallery:
     caption: Post Card
   - image: /uploads/Vital%20Farms/1777313226746.jpg
     caption: Group Shot
+  - image: /uploads/Vital Farms/GOOD EGGS2.png
   - image: /uploads/Vital Farms/CIRLS - CRASS.png
     caption: 'Bumper Stickers '
 ---
