@@ -30,20 +30,19 @@ const gallery = (d.gallery || []).filter((g) => g.image);
         <div class="desc"><Content /></div>
       </div>
 
-      <section>
-        <h2>Documentation</h2>
-        <div class="gallery">
-          <figure>
-            <img src={d.mainImage} alt={d.title} />
-          </figure>
-          {gallery.map((g) => (
-            <figure>
-              <img src={g.image} alt={g.caption || d.title} loading="lazy" />
-              {g.caption && <figcaption>{g.caption}</figcaption>}
-            </figure>
-          ))}
-        </div>
-      </section>
+      {gallery.length > 0 && (
+        <section>
+          <h2>Documentation</h2>
+          <div class="gallery">
+            {gallery.map((g) => (
+              <figure>
+                <img src={g.image} alt={g.caption || d.title} loading="lazy" />
+                {g.caption && <figcaption>{g.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   </div>
 </Layout>
