@@ -5,7 +5,6 @@ venue: 'Chicago, IL'
 order: 1
 mainImage: /uploads/Vital Farms/GOOD EGGS.png
 gallery:
-  - image: /uploads/Vital%20Farms/1777313224635.jpg
   - image: /uploads/Vital%20Farms/1777313226398.jpg
     caption: 'Line '
   - image: /uploads/Vital%20Farms/1777313223406.jpg
