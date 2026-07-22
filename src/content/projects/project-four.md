@@ -4,7 +4,7 @@ year: '2026'
 venue: 'Atlanta, GA'
 order: 1
 mainImage: /uploads/Impossible%20Foods/_AB_5520.jpg
-backgroundImage: /uploads/Impossible Foods/_AB_4794.jpg
+backgroundImage: ''
 gallery:
   - image: /uploads/Impossible%20Foods/_AB_5703.jpg
     caption: Big Boi's Burgers
